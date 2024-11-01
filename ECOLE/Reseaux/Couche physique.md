@@ -1,0 +1,11 @@
+#bande-passant
+#débit
+#signal
+#c0
+#sin
+#cos
+#signal-de-la-puissance
+#signal-de-la-bruit
+#amplitude
+#débit-binaire
+#code-manchester
