@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"5ac207f23b640c09","type":"text","text":"Login : tstark (max 8 caractère)\nmdp : tstark (pareil que le login)","x":-380,"y":-60,"width":325,"height":80,"color":"6"},
+		{"id":"9a77b0d2acea6811","type":"text","text":"prénom : Tony","x":-560,"y":-240,"width":250,"height":60,"color":"4"},
+		{"id":"4172652059a89cb5","type":"text","text":"nom :Stark","x":-120,"y":-240,"width":250,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"713882739c0f5d92","fromNode":"9a77b0d2acea6811","fromSide":"bottom","toNode":"5ac207f23b640c09","toSide":"top","color":"4","label":"t"},
+		{"id":"df5aa2fb7824e3cf","fromNode":"4172652059a89cb5","fromSide":"bottom","toNode":"5ac207f23b640c09","toSide":"top","color":"5","label":"stark"}
+	]
+}

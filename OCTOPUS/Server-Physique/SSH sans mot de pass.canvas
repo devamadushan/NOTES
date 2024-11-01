@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"5abadab7bf947bd0","type":"text","text":"MACHINE B (Server Octopus)\nip : 10.117.50.100\nutilisateur : octopus","x":100,"y":-240,"width":300,"height":100,"color":"5"},
+		{"id":"e1cd7db74c08674a","type":"text","text":"$ ssh-keygen -t rsa\n$ ssh-copy-id octopus@10.117.50.100","x":-472,"y":-60,"width":385,"height":100,"color":"4"},
+		{"id":"a423a20b6dd079b2","type":"text","text":"MACHINE A (PC perso)\nip : 10.118.10.X\nnom : exemple","x":-399,"y":-240,"width":240,"height":100,"color":"4"},
+		{"id":"06d3f3642b2a6013","x":250,"y":-60,"width":250,"height":60,"color":"5","type":"text","text":"authorized_keys"}
+	],
+	"edges":[
+		{"id":"43e8e1e0a17c14ac","fromNode":"a423a20b6dd079b2","fromSide":"bottom","toNode":"e1cd7db74c08674a","toSide":"top"},
+		{"id":"5448f18d1cc363e4","fromNode":"e1cd7db74c08674a","fromSide":"right","toNode":"06d3f3642b2a6013","toSide":"bottom","color":"4","label":"clé public"},
+		{"id":"e50117ab1ef19906","fromNode":"5abadab7bf947bd0","fromSide":"bottom","toNode":"06d3f3642b2a6013","toSide":"top","color":"5","label":".ssh/"}
+	]
+}
