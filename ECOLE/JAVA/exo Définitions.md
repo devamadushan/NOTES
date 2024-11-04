@@ -1,10 +1,10 @@
 #variables
-	.
-#expressions
 
-#porté_des_variabes
+#expressions
 	
-#Encapsulation 
+#porté_des_variabes
+
+#Encapsulation  
 	
 #Abstraction 
 	
@@ -15,10 +15,9 @@
 #dependances-entre-objets 
 	
 #references-null 
-	
+
 #final
-
-
+	
 
 
 
@@ -29,11 +28,11 @@
 #membre-statique
 	
 #package
-	
+
 #visibilité 
 	
 #tableaux
-
+	
 #String
 
 #object
@@ -47,53 +46,59 @@
 #interne-membre
 
 #interne-local
-
+	
 #interne-anonyme
-
+	
 	
 
 
 
 #classes-abstract
-
+	 une classe abstrait definit une implantation partielle d'une spécification ais elle ne peut pas etre instancier
 #les-interfaces
-	
+	les interface definitun type abstrait en spécifiant ses opérations publiques q'il offre au codes clients
 
-#type-statique non
+#type-statique 
+	un type est se definit au meme moment de la création du variable , elle est immuable
+#conversion-implicite 
+	conversion silencieurse qui est faite par le compilateur 
 
-#conversion-implicite non
-
-#conversion-explcite non
-
+#conversion-explcite 
+	conversion dynamique qui est faite par le programmeur avec un (caste)
 #type-dynamique 
-
-
+	type d'instanciation d'objet q'une variable fait reference
 #liaison 
-
+	permet de relier un appél de méthode et une implantation de méthode
 #liaison-statique
-
+	exécuter lors de la compilation
 #liaisson-dynamique
-
+	exécuter lors de l'execution
 #record
-
- #les-collections
+	permet de definir une type objet immuable (classe et attribut) qui automatise :
+	la déclaration des attribut 
+	constructeur , getter , hashcode , equals et tostring
+ #les-collections non
+	un objet gerant un regrouppement d'objet (appelé element) se caractérise par :
+		une inteface en stecifiant les operation publiques
+		une implantation en spécifiant la structure interne 
 
 #hashcode
-#ITERATIOR
-permet de parcouir un ensemble des element d'une collection sans exposer sa structure intene
+	une méthoe dynamique de la classe objet permettant de identifier un objet en calculant une emprinte q'il genere sur  32 bits
+#ITERATIOR nonb
+	
 #exception
-intertompre l'execution d'un programme suite a un evenement particulier
-#runtime-exception
-	excption dont l'existance du gestionnaire n'est pas verifier  la cmpilation
+	interruption de l'execution d'un progrzmme suite a un evenement  
+#runtime-exception non
+	exception dont l'existance du gestionnaire n'est pas verifier a la compilation
 #Adapter
-	conversion d'une Api interface X existante pour conformer a une API d'interface Y qui est attendue oar ke client 
+
 #composit
-	structurer les objet pour former l'hiérachie arborecente toute en permettant d'une maniulation homogene des feilles et des noeuds
-	structurer les objets pour former des hiérarchie arborecente qui permettant tt en permettant d'une manipulation homogene des feuilles et des noeuds 
-	structurer le objetpour former l'hierarchie arborecence toute en permettant une manipulation homogene des feuille et des noeuds
+	structurer les objet pour former l'hiereachie arborecence toute en permettant une manipulation homogéne des feuilles et des noeuds
+
 #decorateur
-	ajouter et odifier dynamyquement des responsabilites a des objets 
+	ajouter et modifier les responsabilité des objets 
+	pathron de la conception structurel
 #proxy
-	utilisation d'un objet manataire dialoguang avec un objet principale et qui offr toute les deuc la meme interface 
-#facade
-	offrir une interface simplifiée d'une sous syteme complex des onjets
+	utilisation d'un objet dialogant avec un objet principale et il offrant tout les deux une meme interface
+#facade non
+offrir une interface simplifier d'un sous systeme complex d'objet

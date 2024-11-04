@@ -108,6 +108,7 @@
 	exception dont l'exsitance du gestionnair n'est pas verifiée a la compilation
 #Adapter
 	Conversion d'une API interface X existante pour se conformer à une API d'interface Y attendue parle client 
+	patron de la conseption structurel
 #composit
 	Structurer des objets pour former des hiérarchies arborescentes tout en permettant une manipulation homogène des feuilles et des nœuds.
 #decorator
