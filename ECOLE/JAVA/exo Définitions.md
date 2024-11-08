@@ -24,7 +24,6 @@
 
 
 
-
 #membre-statique
 	
 #package
@@ -101,4 +100,3 @@
 #proxy
 	utilisation d'un objet dialogant avec un objet principale et il offrant tout les deux une meme interface
 #facade non
-offrir une interface simplifier d'un sous systeme complex d'objet
