@@ -29,6 +29,15 @@ pid_t child_pid = wait(&status); //
 	execl("/bin/ls", "ls", "-l", "/home", (char *)NULL);
 
 ````
+- **`/bin/ls`** : C'est le chemin complet vers le programme `ls` qui doit être exécuté. Le programme `ls` permet de lister les fichiers et dossiers dans un répertoire.
+    
+- **`"ls"`** : C'est le premier argument passé au programme `ls`, et dans la convention Unix, c'est généralement le nom du programme lui-même. Cela permet au programme `ls` de savoir quel est son propre nom, bien que ce soit une redondance ici.
+    
+- **`"-l"`** : Il s'agit d'un argument pour `ls` qui indique à `ls` de lister les fichiers avec des informations détaillées (format long).
+    
+- **`"/home"`** : C'est un autre argument pour `ls` qui spécifie le répertoire dont on souhaite afficher le contenu, ici le répertoire `/home`.
+    
+- **`(char *)NULL`** : Cela marque la fin de la liste des arguments. Dans toutes les fonctions `exec*()`, le dernier argument doit être `NULL` pour indiquer que la liste des arguments est terminée.
 ___
 	2.   **`execlp()`**
 		Similaire à `execl()`, mais avec la différence que cette fonction recherche le programme dans les répertoires listés dans la variable d'environnement `PATH` si le chemin n'est pas absolu.
@@ -38,6 +47,7 @@ int execlp(const char *file, const char *arg, ..., (char *)NULL);
 execlp("ls", "ls", "-l", "/home", (char *)NULL);
 
 ```
+Ici, `execlp()` recherche le programme `ls` dans les répertoires définis dans `PATH` (par exemple `/usr/bin`, `/bin`, etc.), sans nécessiter un chemin complet comme `/bin/ls`.
 ____
 	3. **`execv()`**
 		La fonction `execv()` est similaire à `execl()`, mais les arguments sont passés sous forme de tableau (vecteur) de chaînes de caractères.
@@ -46,8 +56,8 @@ int execv(const char *path, char *const argv[]);
 //Exemple
 char *argv[] = {"ls", "-l", "/home", NULL};
 execv("/bin/ls", argv);
-
 ```
+	ici, `execv()` prend le tableau `argv`, où le dernier élément doit être `NULL`, pour fournir les arguments au programme. Le chemin du programme est toujours absolu (`/bin/ls`).
 ---
 	4. **`execvp()`** 
 		Similaire à `execv()`, mais cette fonction recherche le programme dans les répertoires listés dans la variable d'environnement `PATH` si le chemin n'est pas absolu.
@@ -56,8 +66,8 @@ int execvp(const char *file, char *const argv[]);
 //Exemple
 char *argv[] = {"ls", "-l", "/home", NULL};
 execvp("ls", argv);
-
 ```
+Dans ce cas, `execvp()` cherche `ls` dans les répertoires définis dans `PATH` si un chemin relatif est utilisé.
 ___
 	5.  **`execve()`** 
 		`execve()` est la fonction la plus générique et la plus bas niveau parmi toutes les variantes d'`exec`. Elle permet de spécifier non seulement les arguments du programme mais aussi l'environnement dans lequel il doit être exécuté.
@@ -71,54 +81,3 @@ execve("/bin/ls", argv, envp);
 ```
 
 ___
-
-### 2. Exécution d’un `fork` simple
-
-- Programme simple illustrant l'usage de `fork()` avec des affichages différents selon le processus (père ou fils).
-- Point clé : Identifier les messages affichés par le processus père et le fils après l’appel `fork()`.
-
----
-
-### 3. Exécution d'opérations `fork` imbriquées
-
-- **Structure de Programme** :
-    
-    - Création de processus par des `fork()` imbriqués.
-    - Calculs et affichages conditionnels selon le processus.
-- **Points à retenir** :
-    
-    - Nombre total de processus créés.
-    - Affichages et valeurs affichées par chaque processus.
-    - Impact de la suppression d’un appel `exit()`.
-- **Modification** : Créer un processus zombie (processus terminé, mais non libéré par le père).
-    
-
----
-
-### 4. Création de processus en chaîne
-
-- **Programme demandé** :
-    - Un processus qui crée un fils, lequel crée un autre fils, etc., jusqu'à N processus.
-- **Points à explorer** :
-    - Représentation des processus créés pour un nombre donné (ex. N = 3).
-    - Modifications pour :
-        - Attente de fin uniquement pour le processus fils direct du père.
-        - Terminaison du processus principal après tous les processus.
-
----
-
-### 5. Modification de l'exécution avec `exec`
-
-- **Appel à `execl`** :
-    
-    - Utilisation de `execl` pour remplacer le processus par un autre programme.
-    - Point à retenir : Si `execl` réussit, le processus fils exécute le nouveau programme, ici `echo "je suis le fils"`, tandis que le père affiche "je suis le père".
-- **Programme "nemaxe"** :
-    
-    - Programme en plusieurs étapes avec des forks et un `exec`.
-    - **Arborescence de processus** : Représentation des processus créés (utilisation des lettres en commentaires pour structurer l’arbre).
-- **Ordres de terminaison des processus** : Identifier les ordres possibles selon les appels `wait()` et `exit()`.
-    
-- **Modification pour éviter boucles infinies** :
-    
-    - Limitation à 2 occurrences de la section `B` du programme

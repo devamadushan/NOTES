@@ -1,6 +1,7 @@
 ### 1. Rappels sur les ressources et la synchronisation
 
 - **Ressource critique** : ressource partagée entre plusieurs processus nécessitant un accès contrôlé pour maintenir la cohérence.
+	- Mémoire partagé , Fichiers , variables ...
 - **Section critique** : partie de code accédant à une ressource critique et devant être exécutée de manière indivisible pour éviter les conflits.
 - **Exclusion mutuelle** : cas de synchronisation où une ressource n'est accessible que par un processus à la fois.
 - **Sémaphore** : objet de synchronisation qui permet de contrôler l'accès aux ressources en évitant l'attente active. Composé d’un compteur et d’une file d’attente :
