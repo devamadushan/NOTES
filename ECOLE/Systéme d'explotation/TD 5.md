@@ -16,6 +16,57 @@ Opérations sur un sémaphore :
 #### Questions
 
 1.1. **Code des primitives P et V** : Implémentez `P` et `V` en utilisant les primitives `courant()`, `insérer`, et `extraire`.
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+// Définition des structures nécessaires
+typedef struct TACH {
+    int id;  // Identifiant de la tâche
+} TACH;
+
+typedef struct FILE {
+    TACH *taches;
+    int taille;
+    int capacity;
+} FILE;
+
+// Déclaration des sémaphores
+FILE semaphore_sprod;  // Contrôle le nombre de cases vides
+FILE semaphore_scons;  // Contrôle le nombre de cases pleines
+FILE mutex;            // Exclusion mutuelle pour accéder au tampon
+
+
+// Primitve P (wait ou down)
+void P(FILE *semaphore, FILE *file) {
+    // La tâche actuelle doit attendre si la valeur du sémaphore est 0
+    if (semaphore->taille == 0) {
+        // Bloquer la tâche actuelle (mettre la tâche dans la file d'attente)
+        printf("Tâche %d bloquée\n", courant(0)->id);
+        insérer(*courant(0), file);
+    } else {
+        // Décrémenter le sémaphore
+        semaphore->taille--;
+        printf("Tâche %d entre en section critique\n", courant(0)->id);
+    }
+}
+
+// Primitve V (signal ou up)
+void V(FILE *semaphore, FILE *file) {
+    // Incrémenter le sémaphore
+    semaphore->taille++;
+    printf("Tâche %d sort de la section critique\n", courant(0)->id);
+
+    // Si des tâches sont bloquées, les extraire et les réveiller
+    if (semaphore->taille > 0) {
+        TACH *tache = extraire(file);
+        if (tache != NULL) {
+            // Réveiller la tâche en la retirant de la file d'attente
+            printf("Réveil de la tâche %d\n", tache->id);
+        }
+    }
+}
+```
 
 1.2. **Indivisibilité des primitives P et V** : Expliquez pourquoi elles doivent être indivisibles (prévention des interférences) et proposez des moyens d’assurer leur indivisibilité (ex. verrouillage au niveau matériel ou utilisation de verrous logiciels).
 
