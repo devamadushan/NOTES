@@ -1,0 +1,51 @@
+
+- **Amplitude** :
+    
+    - C'est la hauteur maximale d'une onde par rapport à sa position moyenne (ou neutre).
+    - Elle représente la "force" ou l'"intensité" du signal.
+    - Plus l'amplitude est grande, plus le signal est puissant.
+    - Dans le contexte d'une onde sonore, par exemple, une grande amplitude signifie un son plus fort.
+    - C'n'  ; n > 0 = amplitude 
+    - "1"sin >>> se situe devant les sin
+- **Fréquence** :
+    
+    - C'est le nombre de cycles (ou répétitions) d'une onde par seconde.
+    - Elle est mesurée en Hertz (Hz).
+    - Une fréquence élevée signifie que le signal se répète rapidement.
+    - Par exemple, dans le domaine sonore, une fréquence plus élevée correspond à un son plus aigu.
+    - c1 = f0 ; c2 = 2f0 : c3 = 3f0;
+- **Phase** :
+    
+    - Elle représente le "décalage" de l'onde par rapport à un point de référence.
+    - La phase est mesurée en radians (ou en degrés) et permet de savoir où en est l'onde dans son cycle à un moment donné.
+    - Si deux ondes ont la même fréquence et la même amplitude mais sont décalées dans le temps, elles ont une différence de phase.
+- Périodique 
+	- **Un signal périodique** : se répète indéfiniment dans le temps, identique à lui-même après chaque période T.
+- Série de Fourier
+- Spectre de raies
+	- représente graphiquement les composantes fréquentielles d’un signal. Chaque raie correspond à une fréquence, et la hauteur de la raie (amplitude) indique la force de cette composante.
+- spectre d’amplitude
+- **coefficients de décomposition** 
+	- Les **coefficients de décomposition** (ou **coefficients de Fourier**) sont des valeurs numériques qui représentent les amplitudes des différentes composantes sinusoïdales d'un signal lorsqu'il est décomposé en série de Fourier.
+- spectre d'ampliude
+- filtre passe-bas
+	- Si on applique un **filtre passe-bas** avec une fréquence de coupure très basse, seules les fréquences proches de zéro passent, donc **seule la composante continue** (ou c0c_0c0​) reste. Dans ce cas, les amplitudes des harmoniques (comme celles de f0f_0f0​, 2f02f_02f0​, etc.) sont supprimées.
+- fréquence de coupure
+	- fc
+- fréquence fondamentale
+	- f0
+	- la fréquence de base d'un signal : s(t) = sin(2pi fot)
+- fréquence échantillonnage
+	- pour convertir un signal analogique en signal numérique 
+	- théoréme de (Nyquist) fe >= 2 x fmax
+- fréquence harmonique 
+	- f
+- fréquence spéctral
+	- les composants frequentielles d'un signal decompose par (fourier)
+- composant continue
+	- c0 = r0(t)
+- Bande passante
+	- es supports métalliques permettent de faire circuler une grandeur électrique sur un câble généralement métallique ;
+	-  les supports optiques permettent d'acheminer des informations sous forme lumineuse ;
+	- les supports aériens désignent l'air ou le vide ; ils permettent la circulation d'ondes électromagnétiques diverses.
+- NRZ(Non return to Zéro)
