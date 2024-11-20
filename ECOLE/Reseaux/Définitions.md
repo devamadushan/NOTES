@@ -44,8 +44,37 @@
 	- les composants frequentielles d'un signal decompose par (fourier)
 - composant continue
 	- c0 = r0(t)
+	- c = c0
 - Bande passante
 	- es supports métalliques permettent de faire circuler une grandeur électrique sur un câble généralement métallique ;
 	-  les supports optiques permettent d'acheminer des informations sous forme lumineuse ;
 	- les supports aériens désignent l'air ou le vide ; ils permettent la circulation d'ondes électromagnétiques diverses.
+	- B = f haut - f bas
+	- (HZ)
 - NRZ(Non return to Zéro)
+- Relation débit BP
+	- R≤2⋅B⋅log2​(V)
+---
+- ETTD
+	- génere une donneé
+- ETCD 
+	- permet de convertir les donnée qui a éteé génerer par ETTD en signal 
+		- numerique : Ethernet
+		- analogique: WIFI ,4G
+- Protocole :
+		mode connecté:
+			protocole: PPP ; HDLC ;SLIP
+		mode non connécté:
+			protocole: Ethernet : WIFI ; Bluetooth
+- tram
+- fanion
+- Code de parité:
+	- parté paire (0) : nombre pair de 1 dans le mot
+	- parité impaire (1) : nombre impair de 1 dans le mot.
+- codes polynomiaux CRC:
+	- le bit de point fort et point faible doivent étre égaux a 1
+	- tout les 1 son t transformer a x^y d’après le tableaux de binaire 
+	- si R'(x) = 0 pas d'erreur 
+- ACK : acquittement (la suivant)
+- NAK : (Non reçu)
+- 
