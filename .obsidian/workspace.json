@@ -4,81 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "949e95cf6ce7c58e",
+        "id": "d40830c3b8636454",
         "type": "tabs",
         "children": [
           {
-            "id": "d39d8d82aa0a36dd",
+            "id": "055188f3904edd17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECOLE/Systéme d'explotation/Cours 4.md",
+                "file": "VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cours 4"
+              "title": "VirtualBox"
             }
           },
           {
-            "id": "b554e9428999c3e2",
+            "id": "b40ee095e31208a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECOLE/Systéme d'explotation/Cours 5.md",
+                "file": "VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cours 5"
+              "title": "VirtualBox"
             }
           },
           {
-            "id": "b25a236d9bf80278",
+            "id": "a443290503ec9979",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECOLE/Systéme d'explotation/TD 5.md",
+                "file": "VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TD 5"
+              "title": "VirtualBox"
             }
           },
           {
-            "id": "6fbb16f7d41ca0f1",
+            "id": "e6e57a5e03262b00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECOLE/Reseaux/TD 2 Couche physique, codage et modulation.md",
+                "file": "VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TD 2 Couche physique, codage et modulation"
+              "title": "VirtualBox"
             }
           },
           {
-            "id": "29f36a1b95b239ab",
+            "id": "b84c2effdf8a8e4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECOLE/Reseaux/Définitions.md",
+                "file": "VirtualBox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Définitions"
+              "title": "VirtualBox"
+            }
+          },
+          {
+            "id": "6f4cb677cc143f75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OCTOPUS/Server-Physique/Server Octopus/Installations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Installations"
+            }
+          },
+          {
+            "id": "2202d1ffa082f60d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ECOLE/Anglais/Video.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Video"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -100,7 +128,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -109,7 +137,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#update",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,33 +239,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "9ca266d1a39222b9",
+  "active": "6f4cb677cc143f75",
   "lastOpenFiles": [
-    "ECOLE/JAVA/Collections.md",
-    "ECOLE/Reseaux/Définitions.md",
-    "ECOLE/Reseaux/TD 2 Couche physique, codage et modulation.md",
-    "ECOLE/Reseaux/TD4 Analyse de Trams.md",
-    "ECOLE/Reseaux/TD3 MAC et Controle d'erreur.md",
-    "ECOLE/Systéme d'explotation/Cours 4.md",
-    "ECOLE/Systéme d'explotation/TD 5.md",
-    "ECOLE/Systéme d'explotation/TD4.md",
+    "OCTOPUS/Server-Physique/Server Octopus/Containers/Vikunja (project manager).md",
+    "OCTOPUS/Server-Physique/Server Octopus/OpenSSH.md",
+    "OCTOPUS/Server-Physique/Server Octopus/Docker.md",
+    "OCTOPUS/Serveur Machine Virtuel/Machine physique/Dossier partagé.md",
+    "VirtualBox.md",
+    "OCTOPUS/Server-Physique/Server Octopus/About Octopus Server.md",
+    "ECOLE/Anglais/Video.md",
+    "OCTOPUS/Server-Physique/Server Octopus/Installations.md",
+    "SQL.md",
+    "README.md",
+    "Commandes a retenir (shell).md",
+    "Commandes a retenir (Linux).md",
+    "Commandes a retenir (Git).md",
+    "Commandes a retenir (Docker).md",
+    "Commandes a retenir (Debian).md",
+    "ECOLE/Reseaux/COURS/DANT - Cour 2 signal - 2024.pdf",
     "ECOLE/Systéme d'explotation/Cours 5.md",
-    "ECOLE/Systéme d'explotation/TD 6-7.md",
-    "ECOLE/Systéme d'explotation/Processus Unix.md",
-    "ECOLE/Systéme d'explotation/OS.md",
-    "ECOLE/JAVA/exo Définitions.md",
-    "ECOLE/JAVA/Définitions.md",
-    "ECOLE/JAVA/Colléctions.md",
-    "ECOLE/GL/GL.md",
-    "ECOLE/GL",
+    "OCTOPUS/Server-Physique/Pattern Login octopus.canvas",
+    "OCTOPUS/Server-Physique/Server Octopus/Debian.md",
+    "OCTOPUS/Serveur Machine Virtuel/Machine physique/ISO.md",
+    "OCTOPUS/Server-Physique/HDD System.md",
+    "OCTOPUS/Server-Physique/SSH sans mot de pass.canvas",
+    "OCTOPUS/Server-Physique/Achitecture.canvas",
+    "OCTOPUS/Serveur Machine Virtuel/VM-Ubuntu/Docker Compose.md",
+    "ECOLE/Reseaux/TD/TD2 - Couche PHY codage modulation.pdf",
+    "ECOLE/Reseaux/COURS/Cours 1 - intro 2024.pdf",
+    "OCTOPUS/Serveur Machine Virtuel/Les technologies utilisées.md",
+    "ECOLE/Anglais",
+    "OCTOPUS/Serveur Machine Virtuel/2024-09-27.md",
+    "OCTOPUS/Serveur Machine Virtuel/2024-09-30.md",
+    "OCTOPUS/Server-Physique/Server Octopus/Containers/Mariadb (DB server).md",
+    "OCTOPUS/Server-Physique/Server Octopus/Containers/GitLab (Visionning Server).md",
+    "OCTOPUS/Server-Physique/2024-10-31.md",
+    "ECOLE/Reseaux/COURS/DANT - Cours 3 - liaison - 2024.pdf",
+    "ECOLE/Reseaux/COURS/DANT - Cours 7 - réseau 2 - 2025.key.pdf",
+    "ECOLE/Reseaux/COURS/DANT - Cours 8 - Transport - 2024.pdf",
+    "ECOLE/Reseaux/COURS/DANT cours réseau 2022 1.key.pdf",
+    "ECOLE/Reseaux/COURS/cours Ethernet VLAN.pdf",
+    "ECOLE/Reseaux/TD/TD1 Intro Arch et proto.pdf",
     "ECOLE/img/Pasted image 20241010221919.png",
     "ECOLE/img/Pasted image 20241017222926.png",
     "ECOLE/img/Pasted image 20241015184724.png",
@@ -248,30 +298,10 @@
     "ECOLE/img/Pasted image 20241012002835.png",
     "ECOLE/img/Pasted image 20241012002446.png",
     "ECOLE/img/Pasted image 20241012002238.png",
-    "ECOLE/JAVA/Exception.md",
-    "ECOLE/JAVA/Java.md",
-    "ECOLE/JAVA/TD4.md",
-    "VirtualBox.md",
-    "OCTOPUS/Serveur Machine Virtuel/Machine physique/ISO.md",
-    "Commandes a retenir (Linux).md",
-    "SQL.md",
-    "Commandes a retenir (shell).md",
-    "Commandes a retenir (Git).md",
-    "Commandes a retenir (Docker).md",
     "OCTOPUS/Serveur VM.canvas",
-    "OCTOPUS/Server-Physique/Server Octopus/Containers",
-    "OCTOPUS/Server-Physique/SSH sans mot de pass.canvas",
-    "OCTOPUS/Server-Physique/Server Octopus",
-    "OCTOPUS/Server-Physique/Pattern Login octopus.canvas",
-    "OCTOPUS/Server-Physique/Achitecture.canvas",
-    "OCTOPUS/Server-Physique",
-    "OCTOPUS/Server/Server Octopus/Containers",
-    "OCTOPUS/Server/Server Octopus",
     "OCTOPUS/Server/SSH sans mot de pass.canvas",
     "OCTOPUS/Server/Pattern Login octopus.canvas",
     "OCTOPUS/Server/Achitecture.canvas",
-    "OCTOPUS/Server",
-    "OCTOPUS/Serveur Machine Virtuel/Serveur VM.canvas",
-    "OCTOPUS"
+    "OCTOPUS/Serveur Machine Virtuel/Serveur VM.canvas"
   ]
 }

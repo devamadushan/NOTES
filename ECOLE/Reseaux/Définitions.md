@@ -54,7 +54,11 @@
 - NRZ(Non return to Zéro)
 - Relation débit BP
 	- R≤2⋅B⋅log2​(V)
+
+
 ---
+
+
 - ETTD
 	- génere une donneé
 - ETCD 
@@ -77,4 +81,58 @@
 	- si R'(x) = 0 pas d'erreur 
 - ACK : acquittement (la suivant)
 - NAK : (Non reçu)
-- 
+- cluster :
+	- permet de diviser les canaux dans une bande passante et on l'appl cellules 
+- Technique d’accès statique  :
+	- FDMA
+	- TDMA
+- Technique d'acces dynamique
+	-  est utiliser par des LAN , MAN , PAN , ...
+	- CSMA/CA 
+		- LAN
+		- PAN
+	- CSMA/CD
+		- LAN
+	- aloha
+		- Wan 
+	- polling
+		- PAN
+- temps de transmission
+	- C’est le temps que prend un message pour être envoyé sur un réseau.
+	- tt = taille de message(bits) / vitesse de tuyau(bits/s)
+	- tt = t donnée
+- temps de propagation 
+	- C’est le temps que met un signal pour voyager dans un câble ou un tuyau, comme une balle qui roule d’un bout à l’autre.
+	- tp = distance / viesse
+- longueur des trams 
+	- Une **trame**, c’est comme une boîte contenant des données que tu veux envoyer.
+-  capacité de canal
+	- La capacité du canal, c’est comme la **vitesse maximale** du tuyau : **combien de données peuvent passer en une seconde.**
+	- **Exemple :** Si le canal peut transmettre 723 kbits/s
+		- cela signifie que 723,000 bits723,000 peuvent passer chaque seconde.
+- N : 
+	- C’est le **nombre total de stations esclaves** (ordinateurs connectés au maître).
+- M : 
+	- C’est le **nombre de stations actives** (celles qui transmettent réellement des données).
+- vitesse km/s
+	- La vitesse à laquelle un signal se déplace dans le câble ou le réseau.
+- vitessse bit/s
+	- La vitesse à laquelle les données voyagent dans le canal.
+- Temps total
+	- Temps de poll
+	- temps de données
+	- temps de propagation
+	- T total = M x ()
+- Temps de poll
+	- 
+- Temps de donnée :
+	- C’est le temps nécessaire pour transmettre uniquement les **données utiles** d’une station :
+	- T donnéees = longueur de trame de données / capacité de canal
+- Tempŝ de cycle station
+	- t ct = T poll + t donneés + t propagation
+- t utile:
+	- t utile = M x tt
+- taille 
+- U :
+	- **L’efficacité**, c’est la part du temps total utilisée pour envoyer des données utiles. Elle se calcule avec la formule :
+	- U = t utile / t total

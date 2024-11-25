@@ -1,7 +1,7 @@
 #télécharger 
 	Virtual box : https://www.virtualbox.org/wiki/Downloads
 	Extension Pack : https://download.virtualbox.org/virtualbox/7.1.0/Oracle_VirtualBox_Extension_Pack-7.1.0.vbox-extpack
-#installe-le-paquet 
+#paquet 
 	- sudo dpkg -i 'nom du paquet' 
 	- virtualbox &
 #update
@@ -9,8 +9,10 @@
 	- sudo apt upgade
 
 
-1. Il faut #télécharger  VirtualBox et l'extension, puis on #installe-le-paquet et lancer VirtualBox.
-3. Télécharger un [[ISO]] Ubuntu , et on crée une machine virtuel avec le ISO.
-4. Une fois la machine lancé , faire un #update système.
-5. Création d'un [[Dossier partagé]] entre la VM et la machine physique.
+
+1. #télécharger  VirtualBox et l'extension
+2. Installer le #paquet et lancer VirtualBox.
+3. Télécharger une **image** [[ISO]] Ubuntu , et créer une machine virtuelle avec cet ISO.
+4. Une fois la machine lancé , Une fois la machine lancée, effectuer un #update système.
+5. Configurer un [[Dossier partagé]] entre la VM et la machine physique.
 

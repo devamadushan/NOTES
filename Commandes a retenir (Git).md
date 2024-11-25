@@ -11,5 +11,4 @@
 	- git branch <nom de la branche>
 	- git status
 	- git branch -d <nom de la branche>
-
- git remote add origin https://<username>:<API_KEY>@<repository_url>
+	- git remote add origin https://<username>:<API_KEY>@<repository_url>
