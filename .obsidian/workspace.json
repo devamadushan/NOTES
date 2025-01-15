@@ -11,17 +11,14 @@
             "id": "99e4a2ee40a7e8db",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Achitecture.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "NOTES/Commandes a retenir (Git).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Achitecture"
+              "icon": "lucide-file",
+              "title": "Commandes a retenir (Git)"
             }
           }
         ]
@@ -167,6 +164,9 @@
   },
   "active": "99e4a2ee40a7e8db",
   "lastOpenFiles": [
+    "NOTES/Commandes a retenir (Linux).md",
+    "NOTES/Commandes a retenir (shell).md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Achitecture.canvas",
     "02-PROJET/Brain/Models/Model 002.md",
     "02-PROJET/Brain/Models/Template code.md",
     "02-PROJET/Brain/Models/Model 001.md",
@@ -184,7 +184,6 @@
     "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Octopus Web.md",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Portainer.md",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Services/OpenSSH.md",
-    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Achitecture.canvas",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Apache.md",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Arborescence.md",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Docker.md",
@@ -195,8 +194,6 @@
     "02-PROJET/OCTOPUS/Inbox/Cahier des charges API-ECOLAB.md",
     "02-PROJET/OCTOPUS/Inbox/Templates.md",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Debian.md",
-    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/OpenSSH.md",
-    "02-PROJET/OCTOPUS/Octopus/Developpement/SysUtils.md",
     "02-PROJET/Brain",
     "02-PROJET/OCTOPUS/Stages",
     "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme",

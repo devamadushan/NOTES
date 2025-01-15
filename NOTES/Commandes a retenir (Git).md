@@ -14,4 +14,3 @@
 	- git remote add origin https://<username>:<API_KEY>@<repository_url>
 	- git reset --hard 79436e84bc45bbdefd8502ab3aeb3519cea1fba2
 	- git log
-
