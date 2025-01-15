@@ -4,109 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "d40830c3b8636454",
+        "id": "4201cb79f2e99f53",
         "type": "tabs",
         "children": [
           {
-            "id": "055188f3904edd17",
+            "id": "99e4a2ee40a7e8db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "VirtualBox.md",
-                "mode": "source",
-                "source": false
+                "file": "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Achitecture.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "VirtualBox"
-            }
-          },
-          {
-            "id": "b40ee095e31208a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VirtualBox.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VirtualBox"
-            }
-          },
-          {
-            "id": "a443290503ec9979",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VirtualBox.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VirtualBox"
-            }
-          },
-          {
-            "id": "e6e57a5e03262b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VirtualBox.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VirtualBox"
-            }
-          },
-          {
-            "id": "b84c2effdf8a8e4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VirtualBox.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VirtualBox"
-            }
-          },
-          {
-            "id": "6f4cb677cc143f75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OCTOPUS/Server-Physique/Server Octopus/Installations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Installations"
-            }
-          },
-          {
-            "id": "2202d1ffa082f60d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ECOLE/Anglais/Video.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Video"
+              "icon": "lucide-layout-dashboard",
+              "title": "Achitecture"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#update",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -247,61 +165,63 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "6f4cb677cc143f75",
+  "active": "99e4a2ee40a7e8db",
   "lastOpenFiles": [
-    "OCTOPUS/Server-Physique/Server Octopus/Containers/Vikunja (project manager).md",
-    "OCTOPUS/Server-Physique/Server Octopus/OpenSSH.md",
-    "OCTOPUS/Server-Physique/Server Octopus/Docker.md",
-    "OCTOPUS/Serveur Machine Virtuel/Machine physique/Dossier partagé.md",
-    "VirtualBox.md",
-    "OCTOPUS/Server-Physique/Server Octopus/About Octopus Server.md",
-    "ECOLE/Anglais/Video.md",
-    "OCTOPUS/Server-Physique/Server Octopus/Installations.md",
-    "SQL.md",
-    "README.md",
-    "Commandes a retenir (shell).md",
-    "Commandes a retenir (Linux).md",
-    "Commandes a retenir (Git).md",
-    "Commandes a retenir (Docker).md",
-    "Commandes a retenir (Debian).md",
-    "ECOLE/Reseaux/COURS/DANT - Cour 2 signal - 2024.pdf",
-    "ECOLE/Systéme d'explotation/Cours 5.md",
-    "OCTOPUS/Server-Physique/Pattern Login octopus.canvas",
-    "OCTOPUS/Server-Physique/Server Octopus/Debian.md",
-    "OCTOPUS/Serveur Machine Virtuel/Machine physique/ISO.md",
-    "OCTOPUS/Server-Physique/HDD System.md",
-    "OCTOPUS/Server-Physique/SSH sans mot de pass.canvas",
-    "OCTOPUS/Server-Physique/Achitecture.canvas",
-    "OCTOPUS/Serveur Machine Virtuel/VM-Ubuntu/Docker Compose.md",
-    "ECOLE/Reseaux/TD/TD2 - Couche PHY codage modulation.pdf",
-    "ECOLE/Reseaux/COURS/Cours 1 - intro 2024.pdf",
-    "OCTOPUS/Serveur Machine Virtuel/Les technologies utilisées.md",
-    "ECOLE/Anglais",
-    "OCTOPUS/Serveur Machine Virtuel/2024-09-27.md",
-    "OCTOPUS/Serveur Machine Virtuel/2024-09-30.md",
-    "OCTOPUS/Server-Physique/Server Octopus/Containers/Mariadb (DB server).md",
-    "OCTOPUS/Server-Physique/Server Octopus/Containers/GitLab (Visionning Server).md",
-    "OCTOPUS/Server-Physique/2024-10-31.md",
-    "ECOLE/Reseaux/COURS/DANT - Cours 3 - liaison - 2024.pdf",
-    "ECOLE/Reseaux/COURS/DANT - Cours 7 - réseau 2 - 2025.key.pdf",
-    "ECOLE/Reseaux/COURS/DANT - Cours 8 - Transport - 2024.pdf",
-    "ECOLE/Reseaux/COURS/DANT cours réseau 2022 1.key.pdf",
-    "ECOLE/Reseaux/COURS/cours Ethernet VLAN.pdf",
-    "ECOLE/Reseaux/TD/TD1 Intro Arch et proto.pdf",
-    "ECOLE/img/Pasted image 20241010221919.png",
-    "ECOLE/img/Pasted image 20241017222926.png",
-    "ECOLE/img/Pasted image 20241015184724.png",
-    "ECOLE/img/Pasted image 20241015184657.png",
-    "ECOLE/img/Pasted image 20241015184624.png",
-    "ECOLE/img/Pasted image 20241012004300.png",
-    "ECOLE/img/Pasted image 20241012003743.png",
-    "ECOLE/img/Pasted image 20241012002835.png",
-    "ECOLE/img/Pasted image 20241012002446.png",
-    "ECOLE/img/Pasted image 20241012002238.png",
-    "OCTOPUS/Serveur VM.canvas",
-    "OCTOPUS/Server/SSH sans mot de pass.canvas",
-    "OCTOPUS/Server/Pattern Login octopus.canvas",
-    "OCTOPUS/Server/Achitecture.canvas",
-    "OCTOPUS/Serveur Machine Virtuel/Serveur VM.canvas"
+    "02-PROJET/Brain/Models/Model 002.md",
+    "02-PROJET/Brain/Models/Template code.md",
+    "02-PROJET/Brain/Models/Model 001.md",
+    "02-PROJET/Brain/general.md",
+    "02-PROJET/Brain/README.md",
+    "02-PROJET/Brain/Ressources.md",
+    "02-PROJET/Brain/Arborescence.md",
+    "02-PROJET/Brain/Models",
+    "02-PROJET/IBOT/Bibliothèque.md",
+    "02-PROJET/IBOT/Programme.md",
+    "02-PROJET/IBOT/IBOT.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/GitLab.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Octopus DB.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Octopus Brain.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Octopus Web.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Portainer.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/OpenSSH.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services/Achitecture.canvas",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Apache.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Arborescence.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Docker.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/SSH sans mot de pass.canvas",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Pattern Login octopus.canvas",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Liste Users.md",
+    "02-PROJET/Docker/Docker.md",
+    "02-PROJET/OCTOPUS/Inbox/Cahier des charges API-ECOLAB.md",
+    "02-PROJET/OCTOPUS/Inbox/Templates.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/Debian.md",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme/OpenSSH.md",
+    "02-PROJET/OCTOPUS/Octopus/Developpement/SysUtils.md",
+    "02-PROJET/Brain",
+    "02-PROJET/OCTOPUS/Stages",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Systeme",
+    "02-PROJET/OCTOPUS/Octopus/Documentation/Services",
+    "02-PROJET/OCTOPUS/Octopus/Documentation",
+    "02-PROJET/OCTOPUS/Octopus/Developpement",
+    "02-PROJET/OCTOPUS/Octopus",
+    "02-PROJET/OCTOPUS/Inbox",
+    "02-PROJET/OCTOPUS/CR",
+    "02-PROJET/OCTOPUS VM/VM-Ubuntu/Serveur VM.canvas",
+    "02-PROJET/OCTOPUS/Sans titre.canvas",
+    "02-PROJET/OCTOPUS/Server Octopus/SSH sans mot de pass.canvas",
+    "02-PROJET/OCTOPUS/Server Octopus/Pattern Login octopus.canvas",
+    "02-PROJET/OCTOPUS/Server Octopus/Services/Achitecture.canvas",
+    "02-PROJET/OCTOPUS/Server Octopus/Achitecture.canvas",
+    "03-ECOLE/L3/img/Pasted image 20241017222926.png",
+    "03-ECOLE/L3/img/Pasted image 20241015184724.png",
+    "03-ECOLE/L3/img/Pasted image 20241015184657.png",
+    "03-ECOLE/L3/img/Pasted image 20241015184624.png",
+    "03-ECOLE/L3/img/Pasted image 20241012004300.png",
+    "03-ECOLE/L3/img/Pasted image 20241012003743.png",
+    "03-ECOLE/L3/img/Pasted image 20241012002835.png",
+    "03-ECOLE/L3/img/Pasted image 20241012002446.png",
+    "03-ECOLE/L3/img/Pasted image 20241012002238.png",
+    "03-ECOLE/L3/img/Pasted image 20241012001814.png",
+    "Octopus VM/VM-Ubuntu/Serveur VM.canvas"
   ]
 }
