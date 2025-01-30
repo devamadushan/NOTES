@@ -1,3 +1,14 @@
+### Description
+Dans le but de récupérer un fichier `csv` contenant deux colonnes (Temps, Température) et d'entraîner un modèle à prédire la température en fonction du temps, cette fois avec des données limitée .
+### Avantage 
+- Le modèle peut déterminer automatiquement quelle formule mathématique utiliser pour prédire les sorties attendues.
+- Il est applicable à une grande variété de formules mathématiques de base.
+
+### Inconvénient 
+Toutes les formules mathématiques, comme les fonctions périodiques, ne peuvent pas être directement comprises par l'optimiseur Adam.
+
+### Programme
+
 ```python
   
 # 15 janvier 2025  
@@ -16,12 +27,6 @@ import numpy as np
   
   
 #----------------------------* lire le fichier IN (CSV) *---------------------#  
-  
-##with open('data/data_in/brain001.csv', newline='') as csvfileIn:  
-    #spamreader = csv.reader(csvfileIn, delimiter=' ', quotechar='|')    #for row in spamreader:       # print(', '.join(row))  
-  
-#data = pd.read_csv('data/data_in/brain002.csv')  
-#print(data.head())  
   
 data = pd.read_csv('data/data_in/brain002.csv')  
 entree = data['Temps'].values  
@@ -46,4 +51,5 @@ while True:
     x = int(input('Nombre :'))  
     prediction = model.predict(np.array([x]))  
     print(f'prediction :{prediction} ')
+    
 ```

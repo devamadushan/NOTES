@@ -41,3 +41,9 @@
 	ln -s <nom> /chemin/...
 	
 	mkdir -p /chemin/vers/mon_repertoire
+	Cron :
+		crontab -l
+		crontab -e 
+
+ sudo find / -name cuda
+ **sudo dmidecode -s system-serial-number**

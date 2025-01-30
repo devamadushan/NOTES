@@ -1,10 +1,18 @@
 ```
 brain
-	/data
+	data
 		data_in
+			data_in.csv
 		data_out
-		data_expect
-	/src
-.py
-
+			data_out.csv
+		data_true
+			data_true.csv
+		data_train
+			data_train.csv
+		data_brain
+			brain.hdf5
+	model
+		brain.py
+		trainer.py
+	player.py
 ```

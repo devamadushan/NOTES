@@ -14,7 +14,7 @@ Les principaux services déployés sur le serveur sont :
   - Description.
 - [[Octopus DB|Base de données MariaDB]]
   -Description
-- [[Portainer|Gestionnaire Docker avec Portainer]]
+- [[02-PROJET/OCTOPUS VM/VM-Ubuntu/Containers/Portainer|Gestionnaire Docker avec Portainer]]
   - Description
 - [[Octopus/Documentation/Services/Vikunja|Gestionnaire de tâches Vikunja]]
   - Description

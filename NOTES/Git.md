@@ -11,6 +11,8 @@
 	- git branch <nom de la branche>
 	- git status
 	- git branch -d <nom de la branche>
-	- git remote add origin https://<username>:<API_KEY>@<repository_url>
+	- git remote add origin https://<username>:<API_KEY>@github.com/<nom d'utilisateur><repository.git>
 	- git reset --hard 79436e84bc45bbdefd8502ab3aeb3519cea1fba2
 	- git log
+	- git config pull.rebase True
+	- git stash

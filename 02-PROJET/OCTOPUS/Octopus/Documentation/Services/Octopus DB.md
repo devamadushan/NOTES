@@ -12,7 +12,7 @@ Data base  Server
 ---
 
 ## Installation
-- [[MariaDB|Guide d'installtion]]
+- [[02-PROJET/Docker/Containers/Mariadb|Guide d'installtion]]
 
 --- 
 

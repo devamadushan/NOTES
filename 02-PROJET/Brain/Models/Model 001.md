@@ -1,3 +1,15 @@
+### Description
+Un modèle simple qui prend en entrée (un tableau de nombres) et génère en sortie (un autre tableau de nombres). Il tente de comprendre la formule mathématique utilisée en arrière-plan pour prédire les sorties. Le modèle s'entraîne plusieurs fois pour fournir une prédiction précise après avoir été correctement entraîné.
+
+### Avantage 
+- Le modèle peut déterminer automatiquement quelle formule mathématique utiliser pour prédire les sorties attendues.
+- Il est applicable à une grande variété de formules mathématiques de base.
+
+### Inconvénient 
+Il peut prendre un nombre (temps) mais pas une liste de données pour produire une liste de tableaux de températures, ce qui représente une perte de temps.
+
+### Programme
+
 ```python
   
   

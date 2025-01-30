@@ -1,8 +1,10 @@
 
+### Code
 ```python
-# data 
+# date du derniere modification 
 # objectif 
-  
+
+
 #************************************* Imports ******************************#  
   
 ...
@@ -27,3 +29,34 @@
 
 
 ```
+
+### Doc
+
+-  Description
+	....
+-  Avantage 
+	...
+- Inconvénient 
+	....
+- programme
+	...
+
+
+````
+### Description
+....
+
+### Avantage 
+...
+
+### Architecture  
+
+### Inconvénient 
+...
+
+### Programme
+
+```python
+
+```
+````
